@@ -1,0 +1,15 @@
+{
+  "defaultSettings": {
+    "allowComments": true,
+    "showAuthor": true,
+    "showDate": true,
+    "pagination": 10,
+    "sortBy": "createdAt",
+    "sortOrder": "desc"
+  },
+  "siteWide": {
+    "theme": "dark",
+    "language": "ko",
+    "timezone": "Asia/Seoul"
+  }
+}

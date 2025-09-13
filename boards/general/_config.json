@@ -1,0 +1,12 @@
+{
+  "extends": "defaultSettings",
+  "boardInfo": {
+    "displayName": "General",
+    "description": "일반적인 개발 이야기 및 기타",
+    "icon": "💬",
+    "enabled": true
+  },
+  "overrides": {
+    "showTags": true
+  }
+}

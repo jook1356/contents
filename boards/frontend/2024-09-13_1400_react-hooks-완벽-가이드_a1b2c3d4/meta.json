@@ -1,0 +1,17 @@
+{
+  "id": "2024-09-13_1400_react-hooks-완벽-가이드_a1b2c3d4",
+  "title": "React Hooks 완벽 가이드",
+  "slug": "react-hooks-complete-guide",
+  "description": "React 16.8에서 도입된 Hooks를 활용하여 함수형 컴포넌트에서 상태와 생명주기를 다루는 완전한 가이드입니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-13T14:00:00+09:00",
+  "updatedAt": "2024-09-13T14:00:00+09:00",
+  "published": true,
+  "featured": true,
+  "tags": ["React", "JavaScript", "Frontend", "Hooks", "useState", "useEffect"],
+  "categories": ["Tutorial", "Advanced"],
+  "difficulty": "Intermediate",
+  "readTime": 10,
+  "language": "ko"
+}

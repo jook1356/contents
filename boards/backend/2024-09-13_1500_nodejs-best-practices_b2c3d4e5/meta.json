@@ -1,0 +1,24 @@
+{
+  "id": "2024-09-13_1500_nodejs-best-practices_b2c3d4e5",
+  "title": "Node.js 베스트 프랙티스",
+  "slug": "nodejs-best-practices",
+  "description": "Node.js 애플리케이션 개발 시 반드시 알아야 할 베스트 프랙티스들을 정리했습니다.",
+  "author": "김동주",
+  "board": "backend",
+  "createdAt": "2024-09-13T15:00:00+09:00",
+  "updatedAt": "2024-09-13T15:00:00+09:00",
+  "published": true,
+  "featured": false,
+  "tags": [
+    "Node.js",
+    "JavaScript",
+    "Backend",
+    "Best Practices",
+    "Express",
+    "Security"
+  ],
+  "categories": ["Guide", "Advanced"],
+  "difficulty": "Intermediate",
+  "readTime": 12,
+  "language": "ko"
+}

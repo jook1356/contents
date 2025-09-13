@@ -1,0 +1,12 @@
+{
+  "extends": "defaultSettings",
+  "boardInfo": {
+    "displayName": "Tutorial",
+    "description": "개발 튜토리얼 및 학습 자료",
+    "icon": "📚",
+    "enabled": true
+  },
+  "overrides": {
+    "showTags": true
+  }
+}

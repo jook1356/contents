@@ -1,0 +1,12 @@
+{
+  "extends": "defaultSettings",
+  "boardInfo": {
+    "displayName": "Frontend",
+    "description": "프론트엔드 개발 관련",
+    "icon": "🎨",
+    "enabled": true
+  },
+  "overrides": {
+    "showTags": true
+  }
+}
