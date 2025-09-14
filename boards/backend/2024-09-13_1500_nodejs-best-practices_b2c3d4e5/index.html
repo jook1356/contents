@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js 모범 사례 2024 - 실무에서 검증된 개발 가이드 | My Blog</title>
+    <meta name="description" content="Node.js 개발 시 반드시 알아야 할 모범 사례들. 성능 최적화, 보안, 에러 처리 등 실무 팁 총정리">
+    <meta name="keywords" content="Node.js, 백엔드, 모범사례, 성능최적화, 보안, JavaScript">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Node.js 모범 사례 2024 - 실무에서 검증된 개발 가이드">
+    <meta property="og:description" content="Node.js 개발 시 반드시 알아야 할 모범 사례들. 성능 최적화, 보안, 에러 처리 등 실무 팁 총정리">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://contents.github.io/boards/backend/2024-09-13_1500_nodejs-best-practices_b2c3d4e5/">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://my-blog.github.io/boards/backend/nodejs-best-practices">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Node.js 모범 사례 2024",
+        "description": "Node.js 개발 시 반드시 알아야 할 모범 사례들을 정리했습니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-13T15:00:00+09:00",
+        "dateModified": "2024-09-13T15:00:00+09:00",
+        "keywords": "Node.js, Backend, JavaScript, Best Practices",
+        "wordCount": 3000,
+        "timeRequired": "PT20M",
+        "articleSection": "Backend"
+    }
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        .meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        .tags {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ecf0f1;
+        }
+        .tag {
+            display: inline-block;
+            background: #27ae60;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #27ae60;
+        }
+        code {
+            background: #f1f2f6;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        pre code { background: none; padding: 0; }
+    </style>
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Node.js 모범 사례 2024</h1>
+            <div class="meta">
+                <time datetime="2024-09-13T15:00:00+09:00">2024년 9월 13일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">20분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>Node.js는 현재 가장 인기 있는 서버 사이드 JavaScript 런타임입니다. 하지만 제대로 된 모범 사례를 따르지 않으면 성능, 보안, 유지보수성에서 문제가 발생할 수 있습니다.</p>
+            
+            <h2>🏗️ 프로젝트 구조</h2>
+            <p>계층화된 아키텍처를 사용하여 비즈니스 로직과 API 라우트를 분리하세요.</p>
+            
+            <pre><code>src/
+├── controllers/     # API 컨트롤러
+├── services/        # 비즈니스 로직
+├── models/          # 데이터 모델
+├── middleware/      # 미들웨어
+├── routes/          # 라우트 정의
+└── utils/           # 유틸리티 함수</code></pre>
+            
+            <h2>🔒 보안</h2>
+            <p>모든 사용자 입력을 검증하고 살균하여 인젝션 공격을 방지하세요.</p>
+            
+            <pre><code>const Joi = require('joi');
+
+const userSchema = Joi.object({
+  email: Joi.string().email().required(),
+  password: Joi.string().min(8).required()
+});</code></pre>
+            
+            <h2>⚡ 성능 최적화</h2>
+            <p>Promise와 async/await를 올바르게 사용하여 성능을 최적화하세요.</p>
+            
+            <pre><code>// ✅ 병렬 처리 (빠름)
+const [user, posts, comments] = await Promise.all([
+  User.findById(userId),
+  Post.findByUserId(userId),
+  Comment.findByUserId(userId)
+]);</code></pre>
+            
+            <h2>📝 마무리</h2>
+            <p>이 가이드에서 소개한 모범 사례들을 따르면 더 안전하고 성능이 좋은 Node.js 애플리케이션을 개발할 수 있습니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Backend</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Best Practices</span>
+        </footer>
+    </article>
+    
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

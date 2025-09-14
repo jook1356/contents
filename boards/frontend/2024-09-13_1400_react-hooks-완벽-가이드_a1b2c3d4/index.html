@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Hooks 완벽 가이드 - 실무에서 바로 쓰는 패턴들 | My Blog</title>
+    <meta name="description" content="React Hooks의 모든 것을 담은 완벽 가이드. useState, useEffect부터 커스텀 훅까지 실전 예제로 배워보세요.">
+    <meta name="keywords" content="React, Hooks, useState, useEffect, 커스텀훅, 프론트엔드">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="React Hooks 완벽 가이드 - 실무에서 바로 쓰는 패턴들">
+    <meta property="og:description" content="React Hooks의 모든 것을 담은 완벽 가이드. useState, useEffect부터 커스텀 훅까지 실전 예제로 배워보세요.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://contents.github.io/boards/frontend/2024-09-13_1400_react-hooks-완벽-가이드_a1b2c3d4/">
+    <meta property="og:image" content="./assets/react-hooks-thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="React Hooks 완벽 가이드">
+    <meta name="twitter:description" content="React Hooks의 모든 것을 담은 완벽 가이드. useState, useEffect부터 커스텀 훅까지">
+    
+    <!-- Canonical URL (메인 블로그로) -->
+    <link rel="canonical" href="https://my-blog.github.io/boards/frontend/react-hooks-완벽-가이드">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "React Hooks 완벽 가이드",
+        "description": "React Hooks의 기본 개념부터 고급 활용법까지 완벽하게 마스터하는 가이드입니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-13T14:00:00+09:00",
+        "dateModified": "2024-09-13T14:00:00+09:00",
+        "keywords": "React, Hooks, useState, useEffect, 프론트엔드",
+        "wordCount": 2500,
+        "timeRequired": "PT15M",
+        "articleSection": "Frontend"
+    }
+    </script>
+    
+    <!-- 최소한의 스타일 -->
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        .meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        .tags {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ecf0f1;
+        }
+        .tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #3498db;
+        }
+        code {
+            background: #f1f2f6;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        pre code { background: none; padding: 0; }
+    </style>
+</head>
+<body>
+    <article>
+        <header>
+            <h1>React Hooks 완벽 가이드</h1>
+            <div class="meta">
+                <time datetime="2024-09-13T14:00:00+09:00">2024년 9월 13일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">15분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>React Hooks는 React 16.8에서 도입된 혁신적인 기능으로, 함수형 컴포넌트에서도 상태 관리와 생명주기 메서드를 사용할 수 있게 해줍니다.</p>
+            
+            <h2>📚 기본 Hooks</h2>
+            
+            <h3>1. useState - 상태 관리</h3>
+            <pre><code>const [count, setCount] = useState(0);</code></pre>
+            
+            <h3>2. useEffect - 사이드 이펙트 처리</h3>
+            <pre><code>useEffect(() => {
+  // 사이드 이펙트 로직
+}, [dependencies]);</code></pre>
+            
+            <h2>🔧 고급 활용법</h2>
+            <p>커스텀 Hook을 만들어 로직을 재사용할 수 있습니다.</p>
+            
+            <h2>📝 마무리</h2>
+            <p>React Hooks를 마스터하면 더 깔끔하고 재사용 가능한 코드를 작성할 수 있습니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">React</span>
+            <span class="tag">Hooks</span>
+            <span class="tag">Frontend</span>
+            <span class="tag">JavaScript</span>
+        </footer>
+    </article>
+    
+    <!-- 리다이렉트 스크립트 -->
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

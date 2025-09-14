@@ -1,24 +1,28 @@
 {
   "id": "2024-09-13_1500_nodejs-best-practices_b2c3d4e5",
-  "title": "Node.js 베스트 프랙티스",
-  "slug": "nodejs-best-practices",
-  "description": "Node.js 애플리케이션 개발 시 반드시 알아야 할 베스트 프랙티스들을 정리했습니다.",
+  "title": "Node.js 모범 사례 2024",
+  "slug": "nodejs-best-practices-2024",
+  "description": "Node.js 개발 시 반드시 알아야 할 모범 사례들을 정리했습니다. 성능 최적화, 보안, 에러 처리, 테스트 등 실무에서 바로 적용할 수 있는 팁들을 제공합니다.",
   "author": "김동주",
   "board": "backend",
   "createdAt": "2024-09-13T15:00:00+09:00",
   "updatedAt": "2024-09-13T15:00:00+09:00",
   "published": true,
   "featured": false,
-  "tags": [
-    "Node.js",
-    "JavaScript",
-    "Backend",
-    "Best Practices",
-    "Express",
-    "Security"
-  ],
-  "categories": ["Guide", "Advanced"],
-  "difficulty": "Intermediate",
-  "readTime": 12,
-  "language": "ko"
+  "tags": ["Node.js", "Backend", "JavaScript", "Best Practices"],
+  "categories": ["Guide", "Performance", "Security"],
+  "difficulty": "Advanced",
+  "readTime": 20,
+  "language": "ko",
+  "thumbnail": "assets/nodejs-thumb.jpg",
+  "seo": {
+    "metaTitle": "Node.js 모범 사례 2024 - 실무에서 검증된 개발 가이드",
+    "metaDescription": "Node.js 개발 시 반드시 알아야 할 모범 사례들. 성능 최적화, 보안, 에러 처리 등 실무 팁 총정리",
+    "keywords": ["Node.js", "백엔드", "모범사례", "성능최적화", "보안", "JavaScript"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
 }

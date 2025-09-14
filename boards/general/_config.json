@@ -2,11 +2,30 @@
   "extends": "defaultSettings",
   "boardInfo": {
     "displayName": "General",
-    "description": "일반적인 개발 이야기 및 기타",
+    "description": "개발 전반에 관한 일반적인 주제들을 다룹니다. 개발 방법론, 도구, 커리어, 업계 동향 등 개발자라면 알아두면 좋은 다양한 이야기들을 포함합니다.",
     "icon": "💬",
-    "enabled": true
+    "color": "#95a5a6",
+    "enabled": true,
+    "order": 3
   },
   "overrides": {
-    "showTags": true
+    "featuredPostsCount": 2,
+    "showTags": true,
+    "allowComments": true,
+    "showDifficulty": false
+  },
+  "customFields": {
+    "categories": ["Career", "Tools", "Methodology", "Opinion", "News", "Community"],
+    "postTemplate": "general-template.md"
+  },
+  "seo": {
+    "metaDescription": "개발 방법론, 도구, 커리어 등 개발 전반에 관한 이야기들",
+    "keywords": ["개발", "프로그래밍", "커리어", "도구", "방법론", "개발자"]
+  },
+  "autoGenerate": {
+    "tableOfContents": false,
+    "readingTime": true,
+    "relatedPosts": 2,
+    "syntaxHighlight": false
   }
 }

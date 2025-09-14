@@ -2,16 +2,27 @@
   "id": "2024-09-13_1400_react-hooks-완벽-가이드_a1b2c3d4",
   "title": "React Hooks 완벽 가이드",
   "slug": "react-hooks-complete-guide",
-  "description": "React 16.8에서 도입된 Hooks를 활용하여 함수형 컴포넌트에서 상태와 생명주기를 다루는 완전한 가이드입니다.",
+  "description": "React Hooks의 기본 개념부터 고급 활용법까지 완벽하게 마스터하는 가이드입니다. useState, useEffect, useContext 등 모든 Hook을 실전 예제와 함께 설명합니다.",
   "author": "김동주",
   "board": "frontend",
   "createdAt": "2024-09-13T14:00:00+09:00",
   "updatedAt": "2024-09-13T14:00:00+09:00",
   "published": true,
   "featured": true,
-  "tags": ["React", "JavaScript", "Frontend", "Hooks", "useState", "useEffect"],
-  "categories": ["Tutorial", "Advanced"],
+  "tags": ["React", "Hooks", "Frontend", "JavaScript"],
+  "categories": ["Tutorial", "Guide"],
   "difficulty": "Intermediate",
-  "readTime": 10,
-  "language": "ko"
+  "readTime": 15,
+  "language": "ko",
+  "thumbnail": "assets/react-hooks-thumb.jpg",
+  "seo": {
+    "metaTitle": "React Hooks 완벽 가이드 - 실무에서 바로 쓰는 패턴들",
+    "metaDescription": "React Hooks의 모든 것을 담은 완벽 가이드. useState, useEffect부터 커스텀 훅까지 실전 예제로 배워보세요.",
+    "keywords": ["React", "Hooks", "useState", "useEffect", "커스텀훅", "프론트엔드"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
 }

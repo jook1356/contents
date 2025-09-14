@@ -1,0 +1,27 @@
+{
+  "id": "2024-09-14_1000_개발자-커리어-가이드_c3d4e5f6",
+  "title": "개발자 커리어 가이드 2024",
+  "slug": "developer-career-guide-2024",
+  "description": "개발자로서 성공적인 커리어를 쌓기 위한 실용적인 가이드입니다. 신입부터 시니어까지, 각 단계별 성장 전략과 필요한 스킬셋을 정리했습니다.",
+  "author": "김동주",
+  "board": "general",
+  "createdAt": "2024-09-14T10:00:00+09:00",
+  "updatedAt": "2024-09-14T10:00:00+09:00",
+  "published": true,
+  "featured": true,
+  "tags": ["Career", "Developer", "Growth", "Skills"],
+  "categories": ["Career", "Opinion"],
+  "readTime": 12,
+  "language": "ko",
+  "thumbnail": "assets/career-thumb.jpg",
+  "seo": {
+    "metaTitle": "개발자 커리어 가이드 2024 - 신입부터 시니어까지 성장 로드맵",
+    "metaDescription": "개발자로서 성공적인 커리어를 쌓기 위한 실용적인 가이드. 신입부터 시니어까지 각 단계별 성장 전략 총정리",
+    "keywords": ["개발자", "커리어", "성장", "스킬", "개발자커리어", "프로그래머"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

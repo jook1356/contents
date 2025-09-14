@@ -2,11 +2,32 @@
   "extends": "defaultSettings",
   "boardInfo": {
     "displayName": "Backend",
-    "description": "백엔드 개발 관련",
+    "description": "백엔드 개발, 서버 아키텍처, API 설계, 데이터베이스 관련 내용을 다룹니다. Node.js, Python, Java 등 다양한 백엔드 기술을 포함합니다.",
     "icon": "⚙️",
-    "enabled": true
+    "color": "#4ecdc4",
+    "enabled": true,
+    "order": 2
   },
   "overrides": {
-    "showTags": true
+    "featuredPostsCount": 3,
+    "showTags": true,
+    "allowComments": true,
+    "showDifficulty": true
+  },
+  "customFields": {
+    "techStack": ["Node.js", "Python", "Java", "Go", "Rust", "PostgreSQL", "MongoDB"],
+    "difficulty": ["Beginner", "Intermediate", "Advanced", "Expert"],
+    "postTemplate": "backend-template.md",
+    "categories": ["Architecture", "API", "Database", "DevOps", "Security", "Performance"]
+  },
+  "seo": {
+    "metaDescription": "백엔드 개발, 서버 아키텍처, API 설계 관련 정보 - Node.js, Python, 데이터베이스",
+    "keywords": ["Backend", "Server", "API", "Database", "Node.js", "Python", "Architecture", "DevOps"]
+  },
+  "autoGenerate": {
+    "tableOfContents": true,
+    "readingTime": true,
+    "relatedPosts": 3,
+    "syntaxHighlight": true
   }
 }

@@ -2,11 +2,32 @@
   "extends": "defaultSettings",
   "boardInfo": {
     "displayName": "Frontend",
-    "description": "프론트엔드 개발 관련",
+    "description": "프론트엔드 개발 관련 최신 정보와 튜토리얼을 다룹니다. React, Vue, Angular 등 모던 프론트엔드 기술스택을 중심으로 합니다.",
     "icon": "🎨",
-    "enabled": true
+    "color": "#61dafb",
+    "enabled": true,
+    "order": 1
   },
   "overrides": {
-    "showTags": true
+    "featuredPostsCount": 4,
+    "showTags": true,
+    "allowComments": true,
+    "showDifficulty": true
+  },
+  "customFields": {
+    "techStack": ["React", "Vue", "Angular", "Svelte", "TypeScript", "JavaScript"],
+    "difficulty": ["Beginner", "Intermediate", "Advanced", "Expert"],
+    "postTemplate": "frontend-template.md",
+    "categories": ["Tutorial", "Guide", "Tips", "Review", "News"]
+  },
+  "seo": {
+    "metaDescription": "프론트엔드 개발 관련 최신 정보와 튜토리얼 - React, Vue, TypeScript 등",
+    "keywords": ["Frontend", "React", "Vue", "Angular", "JavaScript", "TypeScript", "CSS", "HTML"]
+  },
+  "autoGenerate": {
+    "tableOfContents": true,
+    "readingTime": true,
+    "relatedPosts": 3,
+    "syntaxHighlight": true
   }
 }

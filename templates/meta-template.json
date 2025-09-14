@@ -8,7 +8,21 @@
   "createdAt": "",
   "updatedAt": "",
   "published": false,
+  "featured": false,
   "tags": [],
   "categories": [],
-  "language": "ko"
+  "difficulty": "",
+  "readTime": 0,
+  "language": "ko",
+  "thumbnail": "",
+  "seo": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "keywords": []
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
 }
