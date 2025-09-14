@@ -3,76 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Contents Repository</title>
-    <meta name="description" content="SEO용 블로그 콘텐츠 저장소">
+    <title>Redirecting to Main Blog...</title>
     <meta name="robots" content="noindex, follow">
-    <style>
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background: #f8f9fa;
-            color: #333;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 { color: #2c3e50; margin-bottom: 20px; }
-        p { line-height: 1.6; margin-bottom: 15px; }
-        .redirect-info {
-            background: #e3f2fd;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
-            font-size: 0.9em;
-        }
-        .main-link {
-            display: inline-block;
-            background: #007bff;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-            transition: background 0.3s;
-        }
-        .main-link:hover { background: #0056b3; }
-    </style>
+    <meta http-equiv="refresh" content="0; url=https://jook1356.github.io/djb-gith">
 </head>
 <body>
-    <div class="container">
-        <h1>📚 Blog Contents Repository</h1>
-        <p>이 페이지는 SEO 최적화를 위한 콘텐츠 저장소입니다.</p>
-        
-        <div class="redirect-info">
-            <strong>ℹ️ 안내</strong><br>
-            실제 사용자는 자동으로 메인 블로그로 리다이렉트됩니다.<br>
-            검색엔진 봇만 이 페이지의 콘텐츠를 크롤링합니다.
-        </div>
-        
-        <p>실제 블로그를 방문하려면 아래 링크를 클릭하세요:</p>
-        <a href="https://jook1356.github.io/djb-gith" class="main-link">메인 블로그 방문하기</a>
-        
-        <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
-    </div>
-    
-    <!-- 사용자 리다이렉트 (봇은 제외) -->
-    <script>
-        (function() {
-            const isBot = /bot|crawler|spider|googlebot|bingbot|facebookexternalhit|twitterbot|linkedinbot/i.test(navigator.userAgent);
-            
-            if (!isBot && typeof window !== 'undefined') {
-                // 3초 후 자동 리다이렉트 (사용자가 내용을 볼 수 있도록)
-                setTimeout(function() {
-                    window.location.replace('https://jook1356.github.io/djb-gith');
-                }, 3000);
-            }
-        })();
-    </script>
+    <p>Redirecting to main blog...</p>
+    <script src="./redirect.js"></script>
 </body>
 </html>

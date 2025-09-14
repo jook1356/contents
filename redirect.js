@@ -52,6 +52,15 @@
         return null;
     }
     
+    // 메인 페이지 여부 확인
+    function isMainPage() {
+        const pathname = window.location.pathname;
+        // /contents/ 또는 /contents/index.html 패턴
+        return pathname === '/contents/' || 
+               pathname === '/contents/index.html' || 
+               pathname.endsWith('/contents');
+    }
+    
     // 메인 블로그 URL 생성
     function getMainBlogUrl() {
         const postPath = getPostPath();
@@ -69,8 +78,6 @@
     function performRedirect() {
         if (!isBot()) {
             const targetUrl = getMainBlogUrl();
-            
-            // 즉시 리다이렉트 (replace 사용으로 히스토리에 남지 않음)
             window.location.replace(targetUrl);
         }
     }
@@ -88,6 +95,7 @@
         console.log('Contents Redirect Script');
         console.log('Current URL:', window.location.href);
         console.log('Pathname:', window.location.pathname);
+        console.log('Is Main Page:', isMainPage());
         console.log('Post Path:', getPostPath());
         console.log('User Agent:', navigator.userAgent);
         console.log('Is Bot:', isBot());
