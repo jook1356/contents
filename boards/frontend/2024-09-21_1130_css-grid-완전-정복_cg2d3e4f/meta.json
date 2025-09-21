@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1130_css-grid-완전-정복_cg2d3e4f",
+  "title": "CSS Grid 완전 정복",
+  "slug": "css-grid-complete-guide",
+  "description": "CSS Grid의 모든 것을 마스터하여 복잡한 레이아웃도 쉽게 구현하는 방법을 배워봅니다. 실전 예제와 함께 Grid의 핵심 개념을 익혀보세요.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T11:30:00+09:00",
+  "updatedAt": "2024-09-21T11:30:00+09:00",
+  "published": true,
+  "featured": false,
+  "tags": ["CSS", "Grid", "Layout", "Frontend"],
+  "categories": ["Tutorial", "Guide"],
+  "difficulty": "Beginner",
+  "readTime": 15,
+  "language": "ko",
+  "thumbnail": "assets/css-grid-thumb.jpg",
+  "seo": {
+    "metaTitle": "CSS Grid 완전 정복 - 현대적 레이아웃 기법",
+    "metaDescription": "CSS Grid를 활용한 현대적인 웹 레이아웃 구현 방법을 단계별로 학습합니다.",
+    "keywords": ["CSS Grid", "레이아웃", "CSS", "웹디자인", "반응형"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

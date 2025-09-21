@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jest & React Testing Library 테스팅 가이드 | My Blog</title>
+    <meta name="description" content="Jest와 React Testing Library로 견고한 프론트엔드 테스트 코드를 작성하는 방법을 설명합니다.">
+    <meta name="keywords" content="Jest, React Testing Library, 테스팅, TDD, 단위테스트">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jest & React Testing Library 테스팅 가이드">
+    <meta property="og:description" content="Jest와 React Testing Library로 견고한 프론트엔드 테스트 코드를 작성하는 방법을 설명합니다.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jook1356.github.io/contents/boards/frontend/2024-09-21_1330_jest-react-testing-library_jt4p5q6r/">
+    <meta property="og:image" content="./assets/testing-thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jest & React Testing Library 테스팅 가이드">
+    <meta name="twitter:description" content="견고한 프론트엔드 테스트 코드 작성하기">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Jest & React Testing Library 테스팅 가이드",
+        "description": "Jest와 React Testing Library를 활용하여 견고한 프론트엔드 테스트 코드를 작성하는 방법을 알아봅니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-21T13:30:00+09:00",
+        "dateModified": "2024-09-21T13:30:00+09:00",
+        "keywords": "Jest, React Testing Library, 테스팅, TDD",
+        "wordCount": 2400,
+        "timeRequired": "PT14M",
+        "articleSection": "Frontend"
+    }
+    </script>
+
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Jest & React Testing Library 테스팅 가이드</h1>
+            <div class="meta">
+                <time datetime="2024-09-21T13:30:00+09:00">2024년 9월 21일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">14분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>Jest와 React Testing Library는 React 애플리케이션의 테스팅을 위한 최고의 조합입니다.</p>
+            
+            <h2>📚 기본 설정</h2>
+            
+            <h3>설치 및 설정</h3>
+            <pre><code>npm install --save-dev @testing-library/react</code></pre>
+            
+            <h3>기본 테스트 작성</h3>
+            <pre><code>test('버튼이 올바르게 렌더링된다', () => {
+  render(&lt;Button&gt;클릭하세요&lt;/Button&gt;);
+  expect(screen.getByRole('button')).toBeInTheDocument();
+});</code></pre>
+            
+            <h2>🔧 기본 테스트 작성</h2>
+            <p>컴포넌트 테스트부터 커스텀 훅 테스트까지 다양한 패턴을 활용할 수 있습니다.</p>
+            
+            <h2>📝 마무리</h2>
+            <p>좋은 테스트는 코드의 안정성을 보장하고 리팩토링을 안전하게 만들어줍니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">Jest</span>
+            <span class="tag">Testing</span>
+            <span class="tag">React Testing Library</span>
+            <span class="tag">TDD</span>
+        </footer>
+    </article>
+    
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

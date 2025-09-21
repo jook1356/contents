@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA 구현 가이드 - 네이티브 앱 같은 웹앱 만들기 | My Blog</title>
+    <meta name="description" content="Progressive Web App의 핵심 기능들을 구현하여 뛰어난 사용자 경험을 제공하는 방법을 설명합니다.">
+    <meta name="keywords" content="PWA, Service Worker, 웹앱, 모바일, 오프라인">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="PWA 구현 가이드 - 네이티브 앱 같은 웹앱 만들기">
+    <meta property="og:description" content="Progressive Web App의 핵심 기능들을 구현하여 뛰어난 사용자 경험을 제공하는 방법을 설명합니다.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jook1356.github.io/contents/boards/frontend/2024-09-21_1300_pwa-구현-가이드_pw1m2n3o/">
+    <meta property="og:image" content="./assets/pwa-thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PWA 구현 가이드">
+    <meta name="twitter:description" content="네이티브 앱과 같은 사용자 경험을 제공하는 PWA 구현하기">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Progressive Web App 구현 가이드",
+        "description": "PWA의 핵심 기능들을 구현하여 네이티브 앱과 같은 사용자 경험을 제공하는 방법을 알아봅니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-21T13:00:00+09:00",
+        "dateModified": "2024-09-21T13:00:00+09:00",
+        "keywords": "PWA, Service Worker, 웹앱, 모바일",
+        "wordCount": 2800,
+        "timeRequired": "PT18M",
+        "articleSection": "Frontend"
+    }
+    </script>
+
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Progressive Web App 구현 가이드</h1>
+            <div class="meta">
+                <time datetime="2024-09-21T13:00:00+09:00">2024년 9월 21일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">18분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>PWA는 웹 기술을 사용하여 네이티브 앱과 같은 경험을 제공하는 애플리케이션입니다.</p>
+            
+            <h2>📚 핵심 구성 요소</h2>
+            
+            <h3>Web App Manifest</h3>
+            <pre><code>{
+  "name": "My PWA App",
+  "display": "standalone",
+  "start_url": "/"
+}</code></pre>
+            
+            <h3>Service Worker 등록</h3>
+            <pre><code>navigator.serviceWorker.register('/service-worker.js')</code></pre>
+            
+            <h2>🔧 Service Worker 구현</h2>
+            <p>캐시 전략과 백그라운드 동기화를 통해 오프라인 지원을 구현할 수 있습니다.</p>
+            
+            <h2>📝 마무리</h2>
+            <p>PWA는 웹과 네이티브 앱의 장점을 결합한 미래의 웹 애플리케이션 형태입니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">PWA</span>
+            <span class="tag">Service Worker</span>
+            <span class="tag">Web App</span>
+            <span class="tag">Mobile</span>
+        </footer>
+    </article>
+    
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

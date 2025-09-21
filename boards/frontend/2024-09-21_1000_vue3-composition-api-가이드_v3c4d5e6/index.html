@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue 3 Composition API 완벽 가이드 - 실무 활용법 | My Blog</title>
+    <meta name="description" content="Vue 3 Composition API의 핵심 개념과 실무 활용법을 예제와 함께 상세히 설명합니다.">
+    <meta name="keywords" content="Vue3, Composition API, setup, composables, 프론트엔드">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Vue 3 Composition API 완벽 가이드 - 실무 활용법">
+    <meta property="og:description" content="Vue 3 Composition API의 핵심 개념과 실무 활용법을 예제와 함께 상세히 설명합니다.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jook1356.github.io/contents/boards/frontend/2024-09-21_1000_vue3-composition-api-가이드_v3c4d5e6/">
+    <meta property="og:image" content="./assets/vue3-composition-thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vue 3 Composition API 완벽 가이드">
+    <meta name="twitter:description" content="Vue 3의 Composition API를 활용하여 더 깔끔하고 재사용 가능한 코드를 작성하는 방법">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Vue 3 Composition API 완벽 가이드",
+        "description": "Vue 3의 Composition API를 활용하여 더 깔끔하고 재사용 가능한 코드를 작성하는 방법을 알아봅니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-21T10:00:00+09:00",
+        "dateModified": "2024-09-21T10:00:00+09:00",
+        "keywords": "Vue3, Composition API, setup, composables",
+        "wordCount": 2000,
+        "timeRequired": "PT12M",
+        "articleSection": "Frontend"
+    }
+    </script>
+
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Vue 3 Composition API 완벽 가이드</h1>
+            <div class="meta">
+                <time datetime="2024-09-21T10:00:00+09:00">2024년 9월 21일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">12분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>Vue 3에서 도입된 Composition API는 로직을 더 체계적으로 구성할 수 있게 해주는 새로운 API입니다.</p>
+            
+            <h2>📚 기본 개념</h2>
+            
+            <h3>setup() 함수</h3>
+            <pre><code>export default {
+  setup() {
+    const count = ref(0)
+    return { count }
+  }
+}</code></pre>
+            
+            <h3>Reactive References</h3>
+            <pre><code>const count = ref(0)
+const state = reactive({ user: { name: 'John' } })</code></pre>
+            
+            <h2>🔧 고급 활용</h2>
+            <p>Composables 패턴을 통해 재사용 가능한 로직을 분리할 수 있습니다.</p>
+            
+            <h2>📝 마무리</h2>
+            <p>Composition API는 Vue 3의 핵심 기능으로, 더 유연하고 강력한 컴포넌트 작성을 가능하게 합니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">Vue</span>
+            <span class="tag">Composition API</span>
+            <span class="tag">Vue 3</span>
+            <span class="tag">JavaScript</span>
+        </footer>
+    </article>
+    
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

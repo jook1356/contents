@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1330_jest-react-testing-library_jt4p5q6r",
+  "title": "Jest & React Testing Library 테스팅 가이드",
+  "slug": "jest-react-testing-library-guide",
+  "description": "Jest와 React Testing Library를 활용하여 견고한 프론트엔드 테스트 코드를 작성하는 방법을 알아봅니다. 단위 테스트부터 통합 테스트까지 다룹니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T13:30:00+09:00",
+  "updatedAt": "2024-09-21T13:30:00+09:00",
+  "published": true,
+  "featured": false,
+  "tags": ["Jest", "Testing", "React Testing Library", "TDD"],
+  "categories": ["Tutorial", "Guide"],
+  "difficulty": "Intermediate",
+  "readTime": 14,
+  "language": "ko",
+  "thumbnail": "assets/testing-thumb.jpg",
+  "seo": {
+    "metaTitle": "Jest & React Testing Library 테스팅 가이드",
+    "metaDescription": "Jest와 React Testing Library로 견고한 프론트엔드 테스트 코드를 작성하는 방법을 설명합니다.",
+    "keywords": ["Jest", "React Testing Library", "테스팅", "TDD", "단위테스트"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

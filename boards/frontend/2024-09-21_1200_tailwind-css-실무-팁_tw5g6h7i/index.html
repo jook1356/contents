@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS 실무 팁 - 효율적인 스타일링 | My Blog</title>
+    <meta name="description" content="Tailwind CSS를 실무에서 효율적으로 활용하는 팁과 베스트 프랙티스를 정리했습니다.">
+    <meta name="keywords" content="Tailwind CSS, 유틸리티, CSS 프레임워크, 스타일링">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Tailwind CSS 실무 팁 - 효율적인 스타일링">
+    <meta property="og:description" content="Tailwind CSS를 실무에서 효율적으로 활용하는 팁과 베스트 프랙티스를 정리했습니다.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jook1356.github.io/contents/boards/frontend/2024-09-21_1200_tailwind-css-실무-팁_tw5g6h7i/">
+    <meta property="og:image" content="./assets/tailwind-thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tailwind CSS 실무 팁">
+    <meta name="twitter:description" content="Tailwind CSS를 실무에서 효율적으로 활용하는 베스트 프랙티스">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Tailwind CSS 실무 팁",
+        "description": "Tailwind CSS를 실무에서 효율적으로 사용하는 팁과 베스트 프랙티스를 소개합니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-21T12:00:00+09:00",
+        "dateModified": "2024-09-21T12:00:00+09:00",
+        "keywords": "Tailwind CSS, 유틸리티, CSS 프레임워크",
+        "wordCount": 1400,
+        "timeRequired": "PT8M",
+        "articleSection": "Frontend"
+    }
+    </script>
+
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Tailwind CSS 실무 팁</h1>
+            <div class="meta">
+                <time datetime="2024-09-21T12:00:00+09:00">2024년 9월 21일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">8분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>Tailwind CSS는 유틸리티 우선 CSS 프레임워크로, 빠른 개발과 일관된 디자인 시스템 구축을 가능하게 합니다.</p>
+            
+            <h2>📚 기본 설정</h2>
+            
+            <h3>tailwind.config.js 커스터마이징</h3>
+            <pre><code>module.exports = {
+  theme: {
+    extend: {
+      colors: { primary: '#3b82f6' }
+    }
+  }
+}</code></pre>
+            
+            <h3>컴포넌트 클래스 생성</h3>
+            <pre><code>@layer components {
+  .btn-primary { @apply px-4 py-2 bg-blue-500; }
+}</code></pre>
+            
+            <h2>🔧 실무 활용 팁</h2>
+            <p>반응형 디자인과 다크 모드 지원으로 현대적인 UI를 구축할 수 있습니다.</p>
+            
+            <h2>📝 마무리</h2>
+            <p>Tailwind CSS는 초기 학습 곡선이 있지만, 익숙해지면 매우 빠르고 일관된 UI 개발이 가능합니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Utility-First</span>
+            <span class="tag">Frontend</span>
+        </footer>
+    </article>
+    
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1000_vue3-composition-api-가이드_v3c4d5e6",
+  "title": "Vue 3 Composition API 완벽 가이드",
+  "slug": "vue3-composition-api-guide",
+  "description": "Vue 3의 Composition API를 활용하여 더 깔끔하고 재사용 가능한 코드를 작성하는 방법을 알아봅니다. setup 함수부터 composables까지 실전 예제로 학습하세요.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T10:00:00+09:00",
+  "updatedAt": "2024-09-21T10:00:00+09:00",
+  "published": true,
+  "featured": true,
+  "tags": ["Vue", "Composition API", "Vue 3", "JavaScript"],
+  "categories": ["Tutorial", "Guide"],
+  "difficulty": "Intermediate",
+  "readTime": 12,
+  "language": "ko",
+  "thumbnail": "assets/vue3-composition-thumb.jpg",
+  "seo": {
+    "metaTitle": "Vue 3 Composition API 완벽 가이드 - 실무 활용법",
+    "metaDescription": "Vue 3 Composition API의 핵심 개념과 실무 활용법을 예제와 함께 상세히 설명합니다.",
+    "keywords": ["Vue3", "Composition API", "setup", "composables", "프론트엔드"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1030_typescript-실무-활용법_ts7x8y9z",
+  "title": "TypeScript 실무 활용법",
+  "slug": "typescript-practical-guide",
+  "description": "TypeScript를 실무에서 효과적으로 활용하는 방법을 알아봅니다. 타입 정의부터 고급 패턴까지 실전 예제로 학습하세요.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T10:30:00+09:00",
+  "updatedAt": "2024-09-21T10:30:00+09:00",
+  "published": true,
+  "featured": false,
+  "tags": ["TypeScript", "JavaScript", "Types", "Frontend"],
+  "categories": ["Guide", "Tips"],
+  "difficulty": "Intermediate",
+  "readTime": 10,
+  "language": "ko",
+  "thumbnail": "assets/typescript-thumb.jpg",
+  "seo": {
+    "metaTitle": "TypeScript 실무 활용법 - 효율적인 타입 관리",
+    "metaDescription": "TypeScript를 실무에서 효과적으로 활용하는 패턴과 팁을 소개합니다.",
+    "keywords": ["TypeScript", "타입", "인터페이스", "제네릭", "실무"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

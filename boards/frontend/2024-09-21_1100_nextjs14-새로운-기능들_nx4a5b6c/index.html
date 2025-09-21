@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next.js 14 새로운 기능들 - App Router와 Server Actions | My Blog</title>
+    <meta name="description" content="Next.js 14의 새로운 기능들과 개선사항을 실무 관점에서 정리했습니다.">
+    <meta name="keywords" content="Next.js 14, App Router, Server Actions, React, SSR">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Next.js 14 새로운 기능들 - App Router와 Server Actions">
+    <meta property="og:description" content="Next.js 14의 새로운 기능들과 개선사항을 실무 관점에서 정리했습니다.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jook1356.github.io/contents/boards/frontend/2024-09-21_1100_nextjs14-새로운-기능들_nx4a5b6c/">
+    <meta property="og:image" content="./assets/nextjs14-thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Next.js 14 새로운 기능들">
+    <meta name="twitter:description" content="Next.js 14의 혁신적인 기능들과 실무 활용법">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Next.js 14 새로운 기능들",
+        "description": "Next.js 14에서 새롭게 추가된 기능들을 살펴보고 실무에서 어떻게 활용할 수 있는지 알아봅니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-21T11:00:00+09:00",
+        "dateModified": "2024-09-21T11:00:00+09:00",
+        "keywords": "Next.js 14, App Router, Server Actions",
+        "wordCount": 1600,
+        "timeRequired": "PT8M",
+        "articleSection": "Frontend"
+    }
+    </script>
+
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Next.js 14 새로운 기능들</h1>
+            <div class="meta">
+                <time datetime="2024-09-21T11:00:00+09:00">2024년 9월 21일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">8분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>Next.js 14는 성능 향상과 개발자 경험 개선에 중점을 둔 메이저 업데이트입니다.</p>
+            
+            <h2>📚 주요 새 기능</h2>
+            
+            <h3>App Router 안정화</h3>
+            <pre><code>// app/page.tsx
+export default function HomePage() {
+  return <h1>Next.js 14 홈페이지</h1>
+}</code></pre>
+            
+            <h3>Server Actions</h3>
+            <pre><code>'use server';
+export async function createPost(formData: FormData) {
+  // 서버 사이드 로직
+}</code></pre>
+            
+            <h2>🔧 성능 개선사항</h2>
+            <p>Turbopack 통합과 메타데이터 API로 개발 경험이 크게 향상되었습니다.</p>
+            
+            <h2>📝 마무리</h2>
+            <p>Next.js 14는 현대적인 웹 개발의 새로운 표준을 제시합니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">React</span>
+            <span class="tag">SSR</span>
+            <span class="tag">App Router</span>
+        </footer>
+    </article>
+    
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

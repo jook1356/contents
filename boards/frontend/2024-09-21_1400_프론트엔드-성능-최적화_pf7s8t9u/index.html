@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프론트엔드 성능 최적화 베스트 프랙티스 | My Blog</title>
+    <meta name="description" content="웹 애플리케이션의 성능을 극대화하는 최적화 기법과 베스트 프랙티스를 정리했습니다.">
+    <meta name="keywords" content="성능최적화, Web Vitals, 코드스플리팅, 이미지최적화, 캐싱">
+    <meta name="author" content="김동주">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="프론트엔드 성능 최적화 베스트 프랙티스">
+    <meta property="og:description" content="웹 애플리케이션의 성능을 극대화하는 최적화 기법과 베스트 프랙티스를 정리했습니다.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jook1356.github.io/contents/boards/frontend/2024-09-21_1400_프론트엔드-성능-최적화_pf7s8t9u/">
+    <meta property="og:image" content="./assets/performance-thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="프론트엔드 성능 최적화 베스트 프랙티스">
+    <meta name="twitter:description" content="웹 애플리케이션의 성능을 극대화하는 핵심 전략들">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "프론트엔드 성능 최적화 베스트 프랙티스",
+        "description": "웹 애플리케이션의 로딩 속도와 사용자 경험을 개선하는 프론트엔드 성능 최적화 기법들을 알아봅니다.",
+        "author": {
+            "@type": "Person",
+            "name": "김동주"
+        },
+        "datePublished": "2024-09-21T14:00:00+09:00",
+        "dateModified": "2024-09-21T14:00:00+09:00",
+        "keywords": "성능최적화, Web Vitals, 코드스플리팅",
+        "wordCount": 3200,
+        "timeRequired": "PT16M",
+        "articleSection": "Frontend"
+    }
+    </script>
+
+</head>
+<body>
+    <article>
+        <header>
+            <h1>프론트엔드 성능 최적화 베스트 프랙티스</h1>
+            <div class="meta">
+                <time datetime="2024-09-21T14:00:00+09:00">2024년 9월 21일</time> | 
+                <span class="author">김동주</span> | 
+                <span class="reading-time">16분 읽기</span>
+            </div>
+        </header>
+        
+        <main>
+            <h2>🎯 개요</h2>
+            <p>프론트엔드 성능 최적화는 사용자 경험과 비즈니스 성과에 직접적인 영향을 미칩니다.</p>
+            
+            <h2>📚 Core Web Vitals</h2>
+            
+            <h3>LCP (Largest Contentful Paint)</h3>
+            <pre><code>&lt;img src="hero.webp" loading="eager" fetchpriority="high"&gt;</code></pre>
+            
+            <h3>FID (First Input Delay)</h3>
+            <pre><code>const HeavyComponent = lazy(() =&gt; import('./HeavyComponent'));</code></pre>
+            
+            <h2>🔧 리소스 최적화</h2>
+            <p>이미지 최적화와 JavaScript 최적화를 통해 로딩 성능을 크게 개선할 수 있습니다.</p>
+            
+            <h2>📝 마무리</h2>
+            <p>성능 최적화는 일회성 작업이 아닌 지속적인 과정입니다.</p>
+        </main>
+        
+        <footer class="tags">
+            <span class="tag">Performance</span>
+            <span class="tag">Optimization</span>
+            <span class="tag">Web Vitals</span>
+            <span class="tag">Frontend</span>
+        </footer>
+    </article>
+    
+    <script src="../../../redirect.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1100_nextjs14-새로운-기능들_nx4a5b6c",
+  "title": "Next.js 14 새로운 기능들",
+  "slug": "nextjs-14-new-features",
+  "description": "Next.js 14에서 새롭게 추가된 기능들을 살펴보고 실무에서 어떻게 활용할 수 있는지 알아봅니다. App Router, Server Actions 등 핵심 기능을 다룹니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T11:00:00+09:00",
+  "updatedAt": "2024-09-21T11:00:00+09:00",
+  "published": true,
+  "featured": true,
+  "tags": ["Next.js", "React", "SSR", "App Router"],
+  "categories": ["News", "Guide"],
+  "difficulty": "Intermediate",
+  "readTime": 8,
+  "language": "ko",
+  "thumbnail": "assets/nextjs14-thumb.jpg",
+  "seo": {
+    "metaTitle": "Next.js 14 새로운 기능들 - App Router와 Server Actions",
+    "metaDescription": "Next.js 14의 새로운 기능들과 개선사항을 실무 관점에서 정리했습니다.",
+    "keywords": ["Next.js 14", "App Router", "Server Actions", "React", "SSR"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

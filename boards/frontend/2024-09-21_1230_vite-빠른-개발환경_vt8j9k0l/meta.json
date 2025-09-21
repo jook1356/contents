@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1230_vite-빠른-개발환경_vt8j9k0l",
+  "title": "Vite로 빠른 개발 환경 구축",
+  "slug": "vite-fast-development-setup",
+  "description": "Vite를 활용하여 번개처럼 빠른 개발 환경을 구축하는 방법을 알아봅니다. HMR, 플러그인 시스템, 빌드 최적화까지 다룹니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T12:30:00+09:00",
+  "updatedAt": "2024-09-21T12:30:00+09:00",
+  "published": true,
+  "featured": false,
+  "tags": ["Vite", "Build Tool", "Development", "Frontend"],
+  "categories": ["Tutorial", "Guide"],
+  "difficulty": "Beginner",
+  "readTime": 10,
+  "language": "ko",
+  "thumbnail": "assets/vite-thumb.jpg",
+  "seo": {
+    "metaTitle": "Vite로 빠른 개발 환경 구축 - 현대적 빌드 도구",
+    "metaDescription": "Vite를 사용하여 빠르고 효율적인 프론트엔드 개발 환경을 구축하는 방법을 설명합니다.",
+    "keywords": ["Vite", "빌드도구", "HMR", "개발환경", "번들러"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

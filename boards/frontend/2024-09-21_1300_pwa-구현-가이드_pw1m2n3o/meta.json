@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1300_pwa-구현-가이드_pw1m2n3o",
+  "title": "Progressive Web App 구현 가이드",
+  "slug": "pwa-implementation-guide",
+  "description": "PWA의 핵심 기능들을 구현하여 네이티브 앱과 같은 사용자 경험을 제공하는 방법을 알아봅니다. Service Worker, 매니페스트, 푸시 알림까지 다룹니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T13:00:00+09:00",
+  "updatedAt": "2024-09-21T13:00:00+09:00",
+  "published": true,
+  "featured": true,
+  "tags": ["PWA", "Service Worker", "Web App", "Mobile"],
+  "categories": ["Tutorial", "Guide"],
+  "difficulty": "Advanced",
+  "readTime": 18,
+  "language": "ko",
+  "thumbnail": "assets/pwa-thumb.jpg",
+  "seo": {
+    "metaTitle": "PWA 구현 가이드 - 네이티브 앱 같은 웹앱 만들기",
+    "metaDescription": "Progressive Web App의 핵심 기능들을 구현하여 뛰어난 사용자 경험을 제공하는 방법을 설명합니다.",
+    "keywords": ["PWA", "Service Worker", "웹앱", "모바일", "오프라인"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

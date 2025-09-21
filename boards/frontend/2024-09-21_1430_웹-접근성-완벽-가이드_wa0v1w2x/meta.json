@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1430_웹-접근성-완벽-가이드_wa0v1w2x",
+  "title": "웹 접근성 완벽 가이드",
+  "slug": "web-accessibility-complete-guide",
+  "description": "모든 사용자가 편리하게 이용할 수 있는 웹사이트를 만들기 위한 웹 접근성 가이드입니다. WCAG 지침부터 실무 적용까지 체계적으로 다룹니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T14:30:00+09:00",
+  "updatedAt": "2024-09-21T14:30:00+09:00",
+  "published": true,
+  "featured": false,
+  "tags": ["Accessibility", "WCAG", "A11y", "Inclusive Design"],
+  "categories": ["Guide", "Tutorial"],
+  "difficulty": "Intermediate",
+  "readTime": 20,
+  "language": "ko",
+  "thumbnail": "assets/accessibility-thumb.jpg",
+  "seo": {
+    "metaTitle": "웹 접근성 완벽 가이드 - 모든 사용자를 위한 웹",
+    "metaDescription": "웹 접근성 표준과 실무 적용 방법을 상세히 설명합니다. WCAG 지침을 바탕으로 한 실전 가이드입니다.",
+    "keywords": ["웹접근성", "WCAG", "A11y", "장애인", "포용적디자인"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

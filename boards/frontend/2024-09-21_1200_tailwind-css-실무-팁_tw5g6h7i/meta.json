@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1200_tailwind-css-실무-팁_tw5g6h7i",
+  "title": "Tailwind CSS 실무 팁",
+  "slug": "tailwind-css-practical-tips",
+  "description": "Tailwind CSS를 실무에서 효율적으로 사용하는 팁과 베스트 프랙티스를 소개합니다. 커스텀 설정부터 성능 최적화까지 다룹니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T12:00:00+09:00",
+  "updatedAt": "2024-09-21T12:00:00+09:00",
+  "published": true,
+  "featured": false,
+  "tags": ["Tailwind CSS", "CSS", "Utility-First", "Frontend"],
+  "categories": ["Tips", "Guide"],
+  "difficulty": "Intermediate",
+  "readTime": 8,
+  "language": "ko",
+  "thumbnail": "assets/tailwind-thumb.jpg",
+  "seo": {
+    "metaTitle": "Tailwind CSS 실무 팁 - 효율적인 스타일링",
+    "metaDescription": "Tailwind CSS를 실무에서 효율적으로 활용하는 팁과 베스트 프랙티스를 정리했습니다.",
+    "keywords": ["Tailwind CSS", "유틸리티", "CSS 프레임워크", "스타일링"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}

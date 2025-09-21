@@ -1,0 +1,28 @@
+{
+  "id": "2024-09-21_1400_프론트엔드-성능-최적화_pf7s8t9u",
+  "title": "프론트엔드 성능 최적화 베스트 프랙티스",
+  "slug": "frontend-performance-optimization",
+  "description": "웹 애플리케이션의 로딩 속도와 사용자 경험을 개선하는 프론트엔드 성능 최적화 기법들을 알아봅니다. 코드 스플리팅, 이미지 최적화, 캐싱 전략까지 다룹니다.",
+  "author": "김동주",
+  "board": "frontend",
+  "createdAt": "2024-09-21T14:00:00+09:00",
+  "updatedAt": "2024-09-21T14:00:00+09:00",
+  "published": true,
+  "featured": true,
+  "tags": ["Performance", "Optimization", "Web Vitals", "Frontend"],
+  "categories": ["Guide", "Tips"],
+  "difficulty": "Advanced",
+  "readTime": 16,
+  "language": "ko",
+  "thumbnail": "assets/performance-thumb.jpg",
+  "seo": {
+    "metaTitle": "프론트엔드 성능 최적화 베스트 프랙티스",
+    "metaDescription": "웹 애플리케이션의 성능을 극대화하는 최적화 기법과 베스트 프랙티스를 정리했습니다.",
+    "keywords": ["성능최적화", "Web Vitals", "코드스플리팅", "이미지최적화", "캐싱"]
+  },
+  "stats": {
+    "views": 0,
+    "likes": 0,
+    "shares": 0
+  }
+}
