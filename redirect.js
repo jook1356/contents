@@ -67,7 +67,7 @@
         
         if (postPath) {
             // 개별 게시글 페이지로 리다이렉트
-            return `https://jook1356.github.io/djb-gith/boards/${postPath.boardName}/${postPath.postId}/`;
+            return `https://jook1356.github.io/djb-gith/contents/?board=${postPath.boardName}&post=${postPath.postId}/`;
         } else {
             // 메인 페이지로 리다이렉트
             return 'https://jook1356.github.io/djb-gith';

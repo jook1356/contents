@@ -1,0 +1,29 @@
+# 김동주의 개발 블로그 - Contents Repository
+# https://jook1356.github.io/contents/
+
+User-agent: *
+Allow: /
+
+# 검색엔진에 더 나은 크롤링 환경 제공
+# Allow specific important directories
+Allow: /boards/
+Allow: /boards/backend/
+Allow: /boards/frontend/
+Allow: /boards/general/
+Allow: /boards/tutorial/
+
+# 성능을 위해 리다이렉트 스크립트는 크롤링하지 않음
+Disallow: /redirect.js
+
+# 템플릿 파일들은 크롤링 제외
+Disallow: /templates/
+
+# 설정 파일들 제외
+Disallow: /_config.json
+Disallow: /*/_config.json
+
+# Sitemap 위치 명시
+Sitemap: https://jook1356.github.io/contents/sitemap.xml
+
+# 크롤링 딜레이 (서버 부하 방지)
+Crawl-delay: 1

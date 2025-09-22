@@ -1,0 +1,38 @@
+{
+  "name": "djb-contents",
+  "version": "1.0.0",
+  "description": "김동주의 개발 블로그 콘텐츠 저장소 - SEO 최적화된 정적 콘텐츠",
+  "main": "index.html",
+  "scripts": {
+    "seo:generate": "node scripts/generate-seo-files.js",
+    "seo:watch": "node scripts/watch-content-changes.js",
+    "dev": "npm run seo:watch"
+  },
+  "keywords": [
+    "blog",
+    "content",
+    "seo",
+    "sitemap",
+    "robots",
+    "github-pages"
+  ],
+  "author": "김동주",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jook1356/djb-contents.git"
+  },
+  "homepage": "https://jook1356.github.io/contents/",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {},
+  "files": [
+    "boards/",
+    "scripts/",
+    "sitemap.xml",
+    "robots.txt",
+    "index.html",
+    "redirect.js"
+  ]
+}

@@ -1,0 +1,50 @@
+name: "SEO Update on Content Change"
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "contents/boards/**/*.json"
+      - "contents/boards/**/*.md"
+      - "contents/boards/**/*.html"
+      - "contents/boards-config.json"
+
+jobs:
+  quick-seo-update:
+    name: "Quick SEO Update"
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, '[skip seo]') == false
+
+    steps:
+      - name: "📥 Checkout"
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🏗️ Setup Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: "🤖 Update SEO files"
+        run: |
+          echo "⚡ 빠른 SEO 파일 업데이트..."
+          npm run seo:generate
+
+      - name: "📤 Auto-commit SEO files"
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-update SEO files [skip ci]"
+          file_pattern: "contents/sitemap.xml contents/robots.txt"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          skip_checkout: true
+          skip_dirty_check: false
+
+      - name: "📊 Success notification"
+        if: success()
+        run: |
+          echo "✅ SEO 파일이 성공적으로 업데이트되었습니다!"
+          echo "- sitemap.xml 생성 완료"
+          echo "- robots.txt 생성 완료"
