@@ -23,7 +23,7 @@ Disallow: /_config.json
 Disallow: /*/_config.json
 
 # Sitemap 위치 명시
-Sitemap: https://jook1356.github.io/djb-gith/sitemap.xml
+Sitemap: https://jook1356.github.io/contents/sitemap.xml
 
 # 크롤링 딜레이 (서버 부하 방지)
 Crawl-delay: 1

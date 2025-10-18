@@ -17,7 +17,7 @@ const {
 
 // 설정
 const CONFIG = {
-  baseUrl: "https://jook1356.github.io/djb-gith",
+  baseUrl: "https://jook1356.github.io/contents",
   outputDir: path.join(__dirname, ".."), // contents 폴더
   boardsDir: path.join(__dirname, "..", "boards"), // contents/boards
   watchPaths: [
