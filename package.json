@@ -1,7 +1,7 @@
 {
-  "name": "djb-contents",
+  "name": "@my-blog/contents",
   "version": "1.0.0",
-  "description": "김동주의 개발 블로그 콘텐츠 저장소 - SEO 최적화된 정적 콘텐츠",
+  "description": "프론트엔드, 백엔드 개발 경험과 인사이트를 공유하는 개발자 김동주의 기술 블로그입니다. React, Node.js, TypeScript 등 실무 경험을 바탕으로 한 깊이 있는 기술 콘텐츠를 제공합니다.",
   "main": "index.html",
   "scripts": {
     "seo:generate": "node scripts/generate-seo-files.js",
@@ -9,12 +9,21 @@
     "dev": "npm run seo:watch"
   },
   "keywords": [
-    "blog",
-    "content",
-    "seo",
-    "sitemap",
-    "robots",
-    "github-pages"
+    "개발 블로그",
+    "프론트엔드",
+    "백엔드",
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "JavaScript",
+    "웹 개발",
+    "소프트웨어 엔지니어링",
+    "김동주",
+    "개발자",
+    "기술 블로그",
+    "프로그래밍",
+    "코딩"
   ],
   "author": "김동주",
   "license": "MIT",
@@ -22,7 +31,7 @@
     "type": "git",
     "url": "https://github.com/jook1356/djb-contents.git"
   },
-  "homepage": "https://jook1356.github.io/contents/",
+  "homepage": "https://jook1356.github.io/djb-gith",
   "engines": {
     "node": ">=18"
   },

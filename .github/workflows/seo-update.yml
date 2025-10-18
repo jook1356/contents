@@ -4,9 +4,9 @@ on:
   # 콘텐츠 변경시 자동 실행
   push:
     paths:
-      - "contents/boards/**"
-      - "contents/boards-config.json"
-      - "contents/templates/**"
+      - "boards/**"
+      - "boards-config.json"
+      - "templates/**"
 
   # 매일 오전 2시 (UTC) / 오전 11시 (KST) 자동 실행
   schedule:
@@ -87,7 +87,7 @@ jobs:
         if: steps.git-changes.outputs.changes == 'true'
         run: |
           # SEO 파일들만 스테이징
-          git add contents/sitemap.xml contents/robots.txt
+          git add sitemap.xml robots.txt
 
           # 커밋 메시지 생성
           if [ "${{ github.event_name }}" = "push" ]; then
@@ -120,8 +120,8 @@ jobs:
             echo "✅ **성공**: SEO 파일이 업데이트되었습니다" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "### 업데이트된 파일" >> $GITHUB_STEP_SUMMARY
-            echo "- \`contents/sitemap.xml\`" >> $GITHUB_STEP_SUMMARY 
-            echo "- \`contents/robots.txt\`" >> $GITHUB_STEP_SUMMARY
+            echo "- \`sitemap.xml\`" >> $GITHUB_STEP_SUMMARY 
+            echo "- \`robots.txt\`" >> $GITHUB_STEP_SUMMARY
           else
             echo "ℹ️ **정보**: 변경할 SEO 파일이 없습니다" >> $GITHUB_STEP_SUMMARY
           fi
@@ -139,11 +139,11 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
           # 게시글 개수 분석
-          TOTAL_POSTS=$(find contents/boards -name "meta.json" | wc -l)
-          FRONTEND_POSTS=$(find contents/boards/frontend -name "meta.json" 2>/dev/null | wc -l || echo 0)
-          BACKEND_POSTS=$(find contents/boards/backend -name "meta.json" 2>/dev/null | wc -l || echo 0)
-          GENERAL_POSTS=$(find contents/boards/general -name "meta.json" 2>/dev/null | wc -l || echo 0)
-          TUTORIAL_POSTS=$(find contents/boards/tutorial -name "meta.json" 2>/dev/null | wc -l || echo 0)
+          TOTAL_POSTS=$(find boards -name "meta.json" | wc -l)
+          FRONTEND_POSTS=$(find boards/frontend -name "meta.json" 2>/dev/null | wc -l || echo 0)
+          BACKEND_POSTS=$(find boards/backend -name "meta.json" 2>/dev/null | wc -l || echo 0)
+          GENERAL_POSTS=$(find boards/general -name "meta.json" 2>/dev/null | wc -l || echo 0)
+          TUTORIAL_POSTS=$(find boards/tutorial -name "meta.json" 2>/dev/null | wc -l || echo 0)
 
           echo "### 📊 게시글 통계" >> $GITHUB_STEP_SUMMARY
           echo "- **전체**: ${TOTAL_POSTS}개" >> $GITHUB_STEP_SUMMARY

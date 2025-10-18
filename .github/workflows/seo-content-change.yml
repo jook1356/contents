@@ -4,10 +4,10 @@ on:
   push:
     branches: [main, master]
     paths:
-      - "contents/boards/**/*.json"
-      - "contents/boards/**/*.md"
-      - "contents/boards/**/*.html"
-      - "contents/boards-config.json"
+      - "boards/**/*.json"
+      - "boards/**/*.md"
+      - "boards/**/*.html"
+      - "boards-config.json"
 
 jobs:
   quick-seo-update:
@@ -36,7 +36,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 Auto-update SEO files [skip ci]"
-          file_pattern: "contents/sitemap.xml contents/robots.txt"
+          file_pattern: "sitemap.xml robots.txt"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
           skip_checkout: true

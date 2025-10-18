@@ -12,7 +12,7 @@ const path = require("path");
 
 // 설정
 const CONFIG = {
-  baseUrl: "https://jook1356.github.io/contents",
+  baseUrl: "https://jook1356.github.io/djb-gith",
   outputDir: path.join(__dirname, ".."), // contents 폴더
   boardsDir: path.join(__dirname, "..", "boards"), // contents/boards
   author: "김동주",
@@ -247,8 +247,8 @@ function generateRobots(items) {
     ),
   ];
 
-  let robots = `# ${CONFIG.siteName} - Contents Repository
-# ${CONFIG.baseUrl}/
+  let robots = `# ${CONFIG.siteName}
+# ${CONFIG.baseUrl}
 
 User-agent: *
 Allow: /
